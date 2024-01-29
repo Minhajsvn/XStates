@@ -88,7 +88,7 @@ export default function App() {
         })}
       </select>
       {selectedCity != "" ? <div className='displayDiv'>
-        You Selected {selectedCity}, <span>{selectedState}, {selectedCountry}</span>
+        You selected {selectedCity}, <span>{selectedState}, {selectedCountry}</span>
       </div> : ""}
     </div>
   )
